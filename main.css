@@ -155,14 +155,12 @@ float: left;
 .nghe1{
     border: 2px solid;
     width: 985px;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(to left,rgb(255, 0, 0),rgb(255, 109, 4), #eaff00, #077b39,rgb(43, 0, 255),rgb(91, 0, 103));
+
 }
 .nghe2{     
     border: 2px solid;
     width: 985px;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(to left,rgb(255, 0, 0),rgb(255, 109, 4), #eaff00, #077b39,rgb(43, 0, 255),rgb(91, 0, 103));
+    
 }
 .khung4{
     font-size: 16px;
