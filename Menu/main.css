@@ -1,0 +1,14 @@
+
+html{
+    font-family: “Comic Sans MS”, cursive, sans-serif;
+ 
+    
+}
+body{
+    width: auto;
+    height: auto;
+    background-image: url("./img/anhnen.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+  
