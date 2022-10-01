@@ -1,6 +1,6 @@
 * {
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     box-sizing: border-box;
 }
 
@@ -11,7 +11,7 @@ html {
 
 header{
     background-color: white;
-    padding: 0 460px;
+   padding:0 300px;
     height: 30px;
 }
 
@@ -24,10 +24,10 @@ ul{
 .fl1
 {
   
-        float: left;
-        transform: translateX(250px);
-        margin-right:18px;
-        margin-top: 5px;
+    float: left;
+  transform: translateX(250px);
+    margin-right:18px;
+   margin-top: 5px;
 
 }
 
@@ -44,7 +44,7 @@ ul{
     top: 50%;
     transform: translateY(-50%);
     position: absolute;
-    right: 495px;
+    right: 365px;
     display: inline-block;
     top:28px;
 
@@ -56,7 +56,7 @@ ul{
 
 .list li {
 
-    transform: translateY(4px);
+  
     font-size: 10px;
     padding: 0 10px;
     padding: bottom 0px;
@@ -66,16 +66,59 @@ ul{
     color:white;
 
 }
-.list box {
-    background-color: white;
-   border: 1px solid #e1e1e1 ;
-    float: left;
-    height: 26px;
-    width: 200px;
+.list input{
+    height:26px ;
+   
+}
+.quangcaotruong{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(20%);
+   
+}
+.header2{
+    width: 61%;
+    height: 21px;
+    transform: translateY(140px);
+    margin-left: 312px;
+    border-bottom: 2px solid #e32;
+ 
+   
+}
+.menu li{
+    display: inline-block;
+    font-size:10px;
+ 
+}
+.menu li a{
+    text-decoration: none;
+}
+.noidung{
+    width:980px ;
+    height: 1500px;
+   
+    transform: translateY(170px);
+}
+.bao
+{
+    width: 686px;
+    height:1500px;
+
+    float:left;
+   
+}
+.bao h1{
+    color: #e32;
+    font: normal 32px/normal Roboto-Bold;
+    line-height: 1.25;
+    margin-bottom: 2px;
+    width: 664px;
+    margin-top: 10px;
+}
+.bao .datetime{
     color: #727b88;
-    line-height: 20px;
-    padding-left: 10px;
-    padding-top: 0px;
-    font-size: 12px;
-    border-radius:1px ;
+    font: normal 12px/normal Roboto;
+    margin-bottom: 12px;
+    padding: 4px 0;
 }
