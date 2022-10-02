@@ -68,6 +68,7 @@ ul{
 }
 .list input{
     height:26px ;
+  
    
 }
 .quangcaotruong{
@@ -78,13 +79,22 @@ ul{
    
 }
 .header2{
-    width: 61%;
+    width: 52%;
     height: 21px;
     transform: translateY(140px);
-    margin-left: 312px;
+    text-align: center;
     border-bottom: 2px solid #e32;
  
    
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 2px solid #e32;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background: #fff;
 }
 .menu li{
     display: inline-block;
@@ -121,4 +131,18 @@ ul{
     font: normal 12px/normal Roboto;
     margin-bottom: 12px;
     padding: 4px 0;
+}
+.bao p{
+    color: #000;
+    font: normal 17.6px/normal NotoSans-Regular;
+    line-height: 1.44;
+    margin-bottom: 24px;
+    letter-spacing: -.2px;
+}
+.quangcao
+{   width: 294px;
+    height:1500px;
+    
+    float:right;
+    margin-top: 120px;
 }
