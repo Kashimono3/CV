@@ -142,7 +142,6 @@ ul{
 .quangcao
 {   width: 294px;
     height:1500px;
-    
     float:right;
     margin-top: 120px;
 }
@@ -150,11 +149,8 @@ ul{
 {
     width: 686px;
     height:35px;
- 
     float: right;
     margin-top: 120px;
-    
-
 }
 .tukhoa p
 {
@@ -163,7 +159,6 @@ ul{
 }
 .tukhoa li{
     display: inline-block;
-
 }
 .tukhoa a{
     text-decoration: none;
