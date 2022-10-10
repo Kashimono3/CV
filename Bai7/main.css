@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+
+.main
+{
+    width: 50%;
+    height: 969px;
+    background-color: #3f2d2d1a;
+    border-radius: 25px;
+}
+
+
+
+header{
+width: 100%;
+height: 150px;
+padding: 20px;
+
+}
+header img{
+    width: 250px;
+    height: 300px;
+    float:right;
+    margin-right: 1%;
+   
+    border-radius: 15%;
+    box-shadow: 20px 15px 20px 0px rgb(0, 0, 0);
+
+}
+
+header span{
+    animation: flow 10s ease-in-out infinite;
+    background: linear-gradient(-60deg, #ff0000, #01d9ff, #fd02e8);
+    background-size: 300%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding:30px;
+    font-size: 50px;
+
+}
+.ketnoi {
+ list-style: none;
+
+}
+.ketnoi  li{
+    float : right;
+    padding:  10px;
+    line-height: 30px;
+    font-size: 25px;
+
+}
+.ketnoi a{
+    text-decoration: none;
+}
+#aboutme{
+    width: 65%;
+    height: 10%;
+    float:left;
+    font-size: 20px;
+    padding: 15px 50px;
+   
+}
+#aboutme p{
+    padding:5px  ;
+}
+.line
+{
+    width: 100%;
+    height: 200px;
+    border-bottom: 2px solid gray;
+    border-top:2px solid gray; 
+}
+.content 
+{
+
+    width: 100%;
+    height:270px;
+
+    font-size: 20px;
+    border-bottom: 2px solid  gray;
+
+}
+.content .skill
+{
+    width: 50%;
+    height: 100%;
+    float: left;
+    border-right: 2px solid  gray;
+    padding: 15px 50px;
+}
+
+.content .edu
+{
+    width: 50%;
+    height: 100%;
+    float:left;
+    padding: 15px 50px;
+}
+.exp
+{
+    width: 100%;
+    height:250px;
+ 
+    text-align: center;
+    border-bottom: 2px solid gray;
+
+   
+    
+}
+.exp1
+{   width:50% ;
+    height: 80%;
+
+    float: left;
+    font-size: 20px;
+    text-align: left;
+    padding: 15px 50px;
+    border-right: 2px solid gray;
+
+}
+.exp2
+{
+    width:50% ;
+    height: 80%;
+
+    float: left;
+    font-size: 20px;
+    text-align: left;
+    padding: 15px 50px;
+
+}
+a.button{
+    display: inline-block;
+    padding: 8px 20px;
+
+    border-radius: 20px;
+    margin:15px 100px;
+    color:#fff;
+    background-color: green;
+    transition: opacity 0.2s ease;
+}
+.exp1 a{
+    text-decoration: none;
+}
+footer
+{
+    height: 99px;
+    width: 100%;
+    padding:0px 50px;
+}
+footer p{
+    padding:3px 10px ;
+}
+a.button:hover{
+    opacity: 0.8;
+}
