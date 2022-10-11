@@ -6,11 +6,12 @@
 
 
 .main
-{
-    width: 50%;
-    height: 969px;
+{   width: 65%;
+    min-width: 50%;
+    min-height: 969px;
     background-color: #3f2d2d1a;
     border-radius: 25px;
+    box-shadow: 20px 11px 7px 5px rgb(0 0 0);
 }
 
 
@@ -62,7 +63,7 @@ header span{
     height: 10%;
     float:left;
     font-size: 20px;
-    padding: 15px 50px;
+    padding: 6px 50px;
    
 }
 #aboutme p{
@@ -139,7 +140,7 @@ a.button{
     padding: 8px 20px;
 
     border-radius: 20px;
-    margin:15px 100px;
+    margin:25px ;
     color:#fff;
     background-color: green;
     transition: opacity 0.2s ease;
@@ -159,3 +160,4 @@ footer p{
 a.button:hover{
     opacity: 0.8;
 }
+
