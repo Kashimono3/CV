@@ -1,29 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./CV/animate.css-main/animate.min.css" />
     <title>Hello</title>
     <style>
-        body {
-            background-color: rgb(92, 235, 92);
+    
+        a.button
+        {           
+        display: inline-block;
+        padding: 52px 42px;
+        border-radius: 50%;
+        
+        color:#fff;
+        background-color: #2d0618;
+        transition: opacity 0.5s ease;   
+        margin-left: 46%;
+        margin-top: 33%;
+
+        }
+        a.button:hover
+        {
+        opacity: 0.6;
         }
 
-        .container {
-            display: flex;
-            justify-content: center;
+        body
+        {
+            background-image:url(./CV/img/hiii.jpg) ;
         }
     </style>
 </head>
-
 <body>
-    <div class="container">
-        <a href="https://kashimono3.github.io/Menu/"><img src="./CV/img/he.gif" width="500" height="500"></a>
-    </div>
-    <h1 class="animate__animated animate__tada" style="color:tomato ;text-align:center">Click the clown frog </h1>
+    <a href="https://kashimono3.github.io/Menu/" class="button"><h1>Click</h1></a>
+    
+    
 </body>
-
 </html>
