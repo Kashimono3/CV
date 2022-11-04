@@ -8,7 +8,7 @@
 .main
 {   width: 65%;
     min-width: 50%;
-    min-height: 969px;
+    height: 969px;
     background-color: #3f2d2d1a;
     border-radius: 25px;
     box-shadow: 20px 11px 7px 5px rgb(0 0 0);
@@ -58,7 +58,7 @@ header span{
 .ketnoi a{
     text-decoration: none;
 }
-#aboutme{
+.aboutme{
     width: 65%;
     height: 10%;
     float:left;
@@ -66,7 +66,7 @@ header span{
     padding: 6px 50px;
    
 }
-#aboutme p{
+.aboutme p{
     padding:5px  ;
 }
 .line
@@ -78,13 +78,10 @@ header span{
 }
 .content 
 {
-
     width: 100%;
     height:270px;
-
     font-size: 20px;
     border-bottom: 2px solid  gray;
-
 }
 .content .skill
 {
@@ -150,7 +147,7 @@ a.button{
 }
 footer
 {
-    height: 99px;
+    height: 110px;
     width: 100%;
     padding:0px 50px;
 }
@@ -160,4 +157,345 @@ footer p{
 a.button:hover{
     opacity: 0.8;
 }
+@media only screen and (min-width: 375px) {
+    .main{
+        width: 95%;
+        height: 100%;
+    }
+    h1{
+        font-size: 17px;
+ 
+    }
+    h2{
+        font-size: 15px;
+ 
+    }
+    h3{
+        font-size: 14px;
 
+    }
+    p {
+        font-size: 13px;
+  
+    }
+    header {
+        height: 100px;
+    }
+    header span{
+        font-size: 20px;
+        padding: 3px 20px;
+    }
+    header img{
+        width: 100px;
+        height: 150px;
+    }
+    .aboutme{
+        width: 60%;
+
+        padding: 3px 20px;
+       
+    }
+ 
+    .content 
+    {
+    height:200px;
+
+    }
+    .exp
+    {
+    height:160px;
+
+    }
+    a.button{
+        margin:10px 0;
+        padding: 0px 15px;
+    }
+    .content .skill
+    {
+    padding: 3px 20px;
+    }
+
+    .content .edu
+    {
+    padding: 3px 20px;
+    }
+    .exp .exp1{
+        padding: 3px 20px;
+    }
+    .exp .exp2{
+        padding: 3px 20px;
+    }
+    footer
+    {
+  
+    padding:0px 25px;
+    }
+    footer p
+    {
+        padding:2px 5px ;
+    }
+    .ketnoi  li{
+
+    
+        line-height: 20px;
+        font-size: 20px;
+    
+    }
+}
+@media only screen and (min-width: 650px) {
+    .main{
+        width: 95%;
+        height: 100%;
+    }
+    h1{
+        font-size: 20px;
+ 
+    }
+    h2{
+        font-size: 18px;
+ 
+    }
+    h3{
+        font-size: 17px;
+
+    }
+    p {
+        font-size: 15px;
+  
+    }
+    header {
+        height: 100px;
+    }
+    header span{
+        font-size: 25px;
+        padding: 3px 20px;
+    }
+    header img{
+        width: 150px;
+        height: 200px;
+    }
+    .aboutme{
+        width: 60%;
+
+        padding: 3px 20px;
+       
+    }
+ 
+    .content 
+    {
+    height:200px;
+
+    }
+    .exp
+    {
+    height:160px;
+
+    }
+    a.button{
+        margin:10px 0;
+        padding: 3px 15px;
+    }
+    .content .skill
+    {
+    padding: 3px 20px;
+    }
+
+    .content .edu
+    {
+    padding: 3px 20px;
+    }
+    .exp .exp1{
+        padding: 3px 20px;
+    }
+    .exp .exp2{
+        padding: 3px 20px;
+    }
+}
+@media only screen and (min-width: 875px) {
+    .main{
+        width: 95%;
+        height: 100%;
+    }
+    h1{
+        font-size: 22px;
+ 
+    }
+    h2{
+        font-size: 20px;
+ 
+    }
+    h3{
+        font-size: 18px;
+
+    }
+    p {
+        font-size: 17px;
+  
+    }
+    header {
+        height: 100px;
+    }
+    header span{
+        font-size: 30px;
+        padding: 3px 20px;
+    }
+    header img{
+        width: 200px;
+        height: 250px;
+    }
+}
+@media only screen and (min-width: 1024px) {
+
+    .main{
+        width: 95%;
+        height: 850px;
+    }
+    h1{
+        font-size: 24px;
+ 
+    }
+    h2{
+        font-size: 22px;
+ 
+    }
+    h3{
+        font-size: 20px;
+
+    }
+    p {
+        font-size: 19px;
+  
+    }
+
+    header span{
+        font-size: 35px;
+        padding: 3px 20px;
+    }
+    header img{
+        width: 200px;
+        height: 250px;
+    }
+    .aboutme{
+        width: 60%;
+
+        padding: 3px 20px;
+       
+    }
+ 
+    .content 
+    {
+    height:220px;
+
+    }
+    .exp
+    {
+    height:180px;
+
+    }
+    a.button{
+        margin:10px 0;
+        padding: 3px 15px;
+    }
+    .content .skill
+    {
+    padding: 3px 20px;
+    }
+
+    .content .edu
+    {
+    padding: 3px 20px;
+    }
+    .exp .exp1{
+        padding: 3px 20px;
+    }
+    .exp .exp2{
+        padding: 3px 20px;
+    }
+    footer{
+        height: 110px;
+    }
+}
+
+@media only screen and (min-width: 1520px) {
+
+    .main
+    {   
+        width: 50%;
+
+        height: 969px;
+   
+    }
+
+
+
+header{
+    width: 100%;
+    height: 150px;
+
+
+}
+header img{
+    width: 250px;
+    height: 300px;
+    float:right;
+
+}
+
+header span{
+
+    font-size: 50px;
+
+}
+
+.ketnoi  li{
+
+    line-height: 30px;
+    font-size: 25px;
+
+}
+
+
+.aboutme p{
+    padding:5px  ;
+}
+.line
+{
+    width: 100%;
+    height: 200px;
+}
+.content 
+{
+    width: 100%;
+    height:270px;
+    font-size: 20px;
+
+}
+
+
+.exp
+{
+    width: 100%;
+    height:250px;
+
+}
+
+a.button{
+    display: inline-block;
+    padding: 8px 20px;
+
+    border-radius: 20px;
+    margin:25px ;
+ 
+}
+
+footer
+{
+    height: 110px;
+    width: 100%;
+    padding:0px 50px;
+}
+footer p{
+    padding:3px 10px ;
+}
+
+}
